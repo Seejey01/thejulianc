@@ -7,15 +7,9 @@ import bibleJourneyLogo from '@/images/logos/bible_journey_logo.jpg'
 import pandaflagLogo from '@/images/logos/pandaflag_logo.png'
 import reactLogo from '@/images/logos/react_logo.png'
 import shoeLogo from '@/images/logos/shoe_logo.jpg'
+import textToSpeechLogo from '@/images/logos/text_to_speech_logo.jpg'
 
 const projects = [
-  {
-    name: 'Pandaflag',
-    description:
-      'Feature flagging service raising confidence for faster and safer deployments',
-    link: { href: 'https://www.pandaflag.net/', label: 'pandaflag.net' },
-    logo: pandaflagLogo,
-  },
   {
     name: 'Pandalinks',
     description: 'Create, update and manage your bookmarks with pandalinks',
@@ -34,6 +28,15 @@ const projects = [
       label: 'bible-journey.vercel.app',
     },
     logo: bibleJourneyLogo,
+  },
+  {
+    name: 'Text to Speech',
+    description: 'Text browser reader with word for word highlighting',
+    link: {
+      href: 'https://text-to-speech-sooty.vercel.app/',
+      label: 'text-to-speech-sooty.vercel.app',
+    },
+    logo: textToSpeechLogo,
   },
   {
     name: 'Shoe size guide',
@@ -64,6 +67,13 @@ const projects = [
       label: 'devetimi.com',
     },
     logo: reactLogo,
+  },
+  {
+    name: 'Pandaflag',
+    description:
+      'Feature flagging service raising confidence for faster and safer deployments',
+    link: { href: 'https://www.pandaflag.net/', label: 'pandaflag.net' },
+    logo: pandaflagLogo,
   },
 ]
 
