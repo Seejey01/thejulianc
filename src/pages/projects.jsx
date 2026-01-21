@@ -14,8 +14,8 @@ const projects = [
     name: 'Pandalinks',
     description: 'Create, update and manage your bookmarks with pandalinks',
     link: {
-      href: 'https://www.pandalinks.co/',
-      label: 'pandalinks.co',
+      href: 'https://pandalinks-next.vercel.app/',
+      label: 'pandalinks-next.vercel.app',
     },
     logo: pandaflagLogo,
   },
